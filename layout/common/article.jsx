@@ -105,7 +105,7 @@ module.exports = class extends Component {
                     {/* "Read more" button */}
                     {/* {index && page.excerpt ? <a class="article-more button is-small is-size-7" href={`${url_for(page.link || page.path)}#more`}>{__('article.more')}</a> : null} */}
                     {/* 改为文章行数大于auto_excerpt.lines就加上按钮 */}
-                    { page.content.split('\n').length > config.auto_excerpt.lines ? <a class="article-more button is-small is-size-7" href={`${url_for(page.link || page.path)}#more`}>{__('article.more')}</a> : null}
+                    {/* { page.content.split('\n').length > config.auto_excerpt.lines ? <a class="article-more button is-small is-size-7" href={`${url_for(page.link || page.path)}#more`}>{__('article.more')}</a> : null} */}
                     {/* Share button */}
                     {!index ? <Share config={config} page={page} helper={helper} /> : null}
                 </article>
