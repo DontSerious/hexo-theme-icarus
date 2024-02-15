@@ -5,3 +5,14 @@
 
 > 本魔改主题不提供文档（因为存在大量硬编码），代码可以随意参考，有使用上的疑问可在 [Issue](https://github.com/imaegoo/hexo-theme-icarus/issues) 中提问，也可[在博客中留言](https://www.imaegoo.com/messages/)。<br>
 > No documentations are provided, codes are free to use, if you have any question, please [open an issue](https://github.com/imaegoo/hexo-theme-icarus/issues) or [leave me a message](https://www.imaegoo.com/messages/).
+
+## 🔷 用法 Usage
+
+```sh
+npm i -g hexo
+mkdir blog
+cd blog
+hexo init --no-clone
+git clone https://github.com/imaegoo/hexo-theme-icarus.git themes/icarus
+hexo config theme icarus
+```
